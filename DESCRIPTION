@@ -1,0 +1,36 @@
+Package: IDEEA
+Title: Indian Zero Carbon Energy Pathways (IDEEA) optimization model
+Description: IDEEA is a capacity expansion and energy resource planning model built with a goal to explore energy transition options and pathways for India, and inform policy.
+Version: 0.50.0
+Date: 2024-08-31
+Authors@R: 
+    person("IDEEA", "comunity", email = "ideea@email.org", role = c("aut", "cre"))
+License: AGPL (>= 3)
+URL: https://ideea-model.github.io/IDEEA
+BugReports: https://github.com/ideea-model/IDEEA/issues
+Encoding: UTF-8
+Depends: 
+    R (>= 4.0),
+    energyRt (>= 0.50),
+    sf
+Imports: 
+    data.table,
+    dplyr,
+    ggplot2,
+    lubridate,
+    merra2ools,
+    glue,
+    magrittr,
+    readr,
+    animation,
+    units,
+    stringr
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
